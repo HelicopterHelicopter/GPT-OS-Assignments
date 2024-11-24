@@ -1,0 +1,8 @@
+{
+    "name":"GPT OS Assignments",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [],
+    "postCreateCommand": "apt-get update && apt-get install -y build-essential git"
+}
